@@ -156,10 +156,7 @@ body {
 
 .imgavtor img {
   width: 100%;
-  border-radius: 1%;
-  -webkit-transition-duration: 3s;
-  -o-transition-duration: 3s;
-  transition-duration: 3s; }
+  border-radius: 1%; }
 
 .about {
   background-color: #e9d3d1;
