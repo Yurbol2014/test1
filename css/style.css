@@ -71,7 +71,6 @@ body {
 
 .wrapper {
   max-width: 1600px;
-  height: 5000px;
   margin: 0px auto; }
 
 .headercontent {
@@ -118,7 +117,10 @@ body {
 
 .header-top_item5 {
   color: #000000;
-  margin: 30px 40px 0px 0px; }
+  margin: 30px 40px 0px 0px;
+  -webkit-transition-duration: 5s;
+  -o-transition-duration: 5s;
+  transition-duration: 5s; }
 
 .line {
   width: 94%;
@@ -128,37 +130,40 @@ body {
   background: #000000;
   border: 0;
   /* рамка вокруг разделительной линии (уберем ее) */
-  margin: 45px 0px 0px 60px; }
+  margin: 45px 0px 45px 60px; }
 
-.header-bottom {
+.headerbottom {
+  margin: 0px 0px 40px 0px; }
+
+.headerbottom__content {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-.headercontent {
-  text-align: center; }
+  display: flex;
+  height: 120px; }
 
 .leftlogo {
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
   color: #000000;
   font-family: "CenturyGothic-Bold";
   font-size: 50px;
-  margin: 50px 0px 0px 100px; }
+  padding: 2px 0px 0px 70px; }
 
 .titlecenter {
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
   color: #000000;
   font-family: "CenturyGothic-Bold";
   font-size: 18px;
-  margin: 100px 0px 0px 350px;
   text-align: center; }
 
-.Sweet {
-  margin: 0px 0px 0px 43px; }
-
 .imgavtor img {
-  width: 100%; }
+  width: 100%;
+  border-radius: 1%; }
 
 .about {
-  background-color: #e9d3d1; }
+  background-color: #e9d3d1;
+  margin: 50px 0px 0px 0px; }
 
 .aboutme {
   text-align: center; }
@@ -233,3 +238,38 @@ body {
 
 .picture__item img {
   width: 100%; }
+
+.footer {
+  height: 730px; }
+
+.uppart__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center; }
+
+.uppart__content_title {
+  font-size: 50px;
+  margin: 70px 0px 50px 0px; }
+
+.uppart__content_invite {
+  font-size: 25px; }
+
+.socnetworks__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 250px; }
+
+.socnetworks__content_item {
+  margin: 45px; }
