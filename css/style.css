@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "CenturyGothic-Bold";
+  src: url("../fonts/GOTHICB3.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/GOTHICB3.eot?#iefix") format("embedded-opentype"), url("../fonts/GOTHICB3.otf") format("opentype"), url("../fonts/GOTHICB3.svg") format("svg"), url("../fonts/GOTHICB3.ttf") format("truetype"), url("../fonts/GOTHICB3.woff") format("woff");
+  /* Modern Browsers */
+  font-weight: 700;
+  font-style: normal; }
+
+body {
+  font-family: "CenturyGothic-Bold"; }
+
+.wrapper {
+  max-width: 1600px;
+  height: 5000px;
+  margin: 0px auto; }
+
+.headercontent {
+  margin: 0px auto; }
+
+@media (max-width: 1600px) {
+  .wrapper {
+    max-width: 1600px; } }
+
+@media (max-width: 992px) {
+  .wrapper {
+    max-width: 750px; } }
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: none; } }
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: "CenturyGothic-Bold";
+  color: #000000;
+  font-size: 25px; }
+
+.header-top_item1 {
+  color: #000000;
+  margin: 30px 0px 0px 60px; }
+
+.header-top_item2 {
+  color: #000000;
+  margin: 30px 0px 0px 0px; }
+
+.header-top_item3 {
+  color: #000000;
+  margin: 30px 0px 0px 0px; }
+
+.header-top_item4 {
+  color: #000000;
+  margin: 30px 0px 0px 0px; }
+
+.header-top_item5 {
+  color: #000000;
+  margin: 30px 40px 0px 0px; }
+
+.line {
+  width: 94%;
+  /* ширина линии */
+  height: 2px;
+  /* высота / толщина линии */
+  background: #000000;
+  border: 0;
+  /* рамка вокруг разделительной линии (уберем ее) */
+  margin: 45px 0px 0px 60px; }
+
+.header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 10px solid #ece89d; }
+
+.headercontent {
+  text-align: center; }
+
+.leftlogo {
+  color: #000000;
+  font-family: "CenturyGothic-Bold";
+  font-size: 50px;
+  margin: 50px 0px 0px 100px; }
+
+.titlecenter {
+  color: #000000;
+  font-family: "CenturyGothic-Bold";
+  font-size: 18px;
+  margin: 100px 0px 0px 350px;
+  text-align: center; }
+
+.Sweet {
+  margin: 0px 0px 0px 43px; }
+
+.imgavtor img {
+  width: 100%; }
+
+.about {
+  background-color: #e9d3d1; }
+
+.aboutme {
+  text-align: center; }
+
+.aboutme__title {
+  color: #000000;
+  font-size: 50px;
+  padding: 15px 0px 30px 0px; }
+
+.aboutme__text {
+  color: #000000;
+  font-size: 25px; }
+
+.aboutservice {
+  color: #000000;
+  text-align: center;
+  font-family: "CenturyGothic-Bold"; }
+
+.aboutservice__title {
+  color: #000000;
+  font-size: 50px;
+  padding: 20px 0px 15px 0px; }
+
+.aboutservice__text {
+  font-size: 25px;
+  color: #000000;
+  font-family: "CenturyGothic-Bold";
+  padding: 10px 0px 20px 0px; }
+
+.skills__title {
+  font-size: 50px;
+  text-align: center;
+  padding: 25px 0px 65px 0px; }
+
+.skills__subtitle {
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 0px 70px 0px; }
+
+.programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center; }
+
+.programs__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 25%;
+  flex: 0 1 25%; }
+
+.programs__item_title {
+  font-size: 18px;
+  padding: 10px 0px 0px 0px; }
+
+.Portfolio {
+  background-color: #e9d3d1;
+  font-size: 50px;
+  text-align: center;
+  margin: 160px 0px 0px 0px; }
+
+.Portfolio__title {
+  padding: 80px 0px 70px 0px; }
+
+.picture {
+  display: inline-block; }
+
+.picture__item:last-child {
+  padding: 120px 0px 65px 0px; }
+
+.picture__item:first-child {
+  padding: 0px 0px 115px 0px; }
+
+.picture__item img {
+  width: 100%; }
