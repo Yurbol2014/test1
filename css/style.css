@@ -152,7 +152,15 @@ body {
   color: #000000;
   font-family: "CenturyGothic-Bold";
   font-size: 18px;
-  text-align: center; }
+  text-align: center;
+  -webkit-transition-duration: 5s;
+  -o-transition-duration: 5s;
+  transition-duration: 5s; }
+
+.Sweet {
+  -webkit-transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s; }
 
 .imgavtor img {
   width: 100%;
