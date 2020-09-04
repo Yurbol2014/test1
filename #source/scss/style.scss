@@ -248,7 +248,7 @@ font-size: 25.5px;
 transition: all 0.2s ease-out 0s;
 }
 .skills:hover{
-// box-shadow: 0 5px 10px 4px #000;
+
 }
 .skills__title {
 font-size: 50px;
@@ -292,8 +292,14 @@ flex: 0 1 25%
 .programs__item_title {
 	font-size: 18px;
 	padding: 10px 0px 0px 0px;
+transition: all 0.5s ease-out 0s;
 }
 
+.programs__item_title:hover{
+color:#DC143C;
+font-size: 20px;
+
+}
 .Portfolio {
 	background-color: #e9d3d1;
 	font-size: 50px;
