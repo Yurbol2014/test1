@@ -610,7 +610,7 @@ body {
 
   .socnetworks__content {
     display: block;
-    text-align: right;
+    text-align: center;
   }
 
   .titlecenter {
@@ -639,6 +639,10 @@ body {
   .socnetworks__content {
     display: block;
     text-align: center;
+  }
+
+  .uppart__content_invite h2 {
+    margin: 0px 0px 1000px 0px;
   }
 
   .titlecenter {

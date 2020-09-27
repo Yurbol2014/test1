@@ -6,7 +6,7 @@ $( document ).ready(function() {
 	$(document).mouseup(function(e) {
         var $target = $(e.target);
         if ($target.closest('.header_burger,.header-top').length == 0) {
-            $('.father_burger').removeClass('active') ;
+            $('.father_burger').removeClass('active') + (location.reload());
         }
 
         $('body').toggleClass('lock');
