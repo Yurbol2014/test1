@@ -151,9 +151,9 @@ bottom: 0;
 	
 	top:-100%;
 	left:0;
-	width: 210px;
+	width: 265px;
    height: 350px;
-   background-color: #D3D3D3;
+   background-color: #e2cfbf;
    z-index: 1;
    transition: all 0.5s ease-out 0s;
    overflow: auto;
@@ -175,7 +175,7 @@ width: 100%;
 height: 100%;
 top:0;
 left:0;
-background-color: #E9967A;
+background-color: #765659;
 z-index: 2;
 }
 
@@ -245,8 +245,8 @@ transition: all 0.5s ease-out 0s;
 .header-top_item1:hover{
 font-size: 25.5px;
 color: #DC143C;
-box-shadow: 0 5px 10px 4px #000;	
-border-radius: 5px;	
+// box-shadow: 0 5px 10px 4px #000;	
+// border-radius: 5px;	
 }
 .header-top_item2 {
 color: #000000;
@@ -256,8 +256,8 @@ transition: all 0.5s ease-out 0s;
 .header-top_item2:hover{
 font-size: 25.5px;
 color: #DC143C;
-box-shadow: 0 5px 10px 4px #000;	
-border-radius: 5px;	
+// box-shadow: 0 5px 10px 4px #000;	
+// border-radius: 5px;	
 }
 .header-top_item3 {
 color: #000000;
@@ -268,8 +268,8 @@ transition: all 0.5s ease-out 0s;
 .header-top_item3:hover{
 font-size: 25.5px;
 color: #DC143C;	
-box-shadow: 0 5px 10px 4px #000;	
-border-radius: 5px;
+// box-shadow: 0 5px 10px 4px #000;	
+// border-radius: 5px;
 }
 .header-top_item4 {
 color: #000000;
@@ -279,8 +279,8 @@ transition: all 0.5s ease-out 0s;
 .header-top_item4:hover{
 font-size: 25.5px;
 color: #DC143C;
-box-shadow: 0 5px 10px 4px #000;	
-border-radius: 5px;	
+// box-shadow: 0 5px 10px 4px #000;	
+// border-radius: 5px;	
 }
 .header-top_item5 {
 color: #000000;
@@ -290,8 +290,8 @@ transition: all 0.5s ease-out 0s;
 .header-top_item5:hover{
 font-size: 25.5px;
 color: #DC143C;
-box-shadow: 0 5px 10px 4px #000;	
-border-radius: 5px;
+// box-shadow: 0 5px 10px 4px #000;	
+// border-radius: 5px;
 }
 .line {
 width: 95.3%; /* ширина линии */
@@ -545,12 +545,11 @@ height: 250px;
 
 .socnetworks__content_item {
 	margin: 45px;
-	transition: all 0.5s ease-out 0s;
+	
 }
 
 .socnetworks__content_item:hover{
-box-shadow: 0 5px 10px 4px #000;
-border-radius: 15px;
+
 }
 
 
@@ -572,7 +571,10 @@ text-align: center;
 .line{
 	width: 150px;
 }
-
+.socnetworks__content_item {
+	margin: 35px;
+	
+}
 
 
 h1{
@@ -597,7 +599,7 @@ text-align: center;
 
 }
 .uppart__content_invite  h2{
-	margin: 0px 0px 1000px 0px;
+	// margin: 0px 0px 1000px 0px;
 }
 
 .titlecenter{
