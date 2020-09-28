@@ -148,15 +148,15 @@ bottom: 0;
 
 .father_burger{
 	position: fixed;
-	
+	overflow: auto;
 	top:-100%;
 	left:0;
-	width: 265px;
-   height: 350px;
+	width: 210px;
+   height: 370px;
    background-color: #e2cfbf;
    z-index: 1;
    transition: all 0.5s ease-out 0s;
-   overflow: auto;
+  
 }
 
 
